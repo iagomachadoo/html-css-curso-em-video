@@ -1,0 +1,99 @@
+@charset "utf-8";
+
+@font-face {
+    font-family: android;
+    src: url(fontes/idroid.otf) format('opentype');
+}
+
+body{
+    font-family: Arial, Helvetica, sans-serif;
+    background-color: rgba(64, 230, 139, 0.815);
+    margin: 0px auto ;
+}
+
+header{
+    background-image: linear-gradient(180deg, #3edd86, #2ea05f, #1A5C38);
+    text-align: center;
+    color: white;
+    height: 200px;   
+}
+
+#titulo-principal-1{
+    font-size: 2em;
+    margin: auto;
+    padding: 10px;
+}
+
+nav{
+    text-align:left;
+    margin: 80px auto auto auto;
+    padding: 5px;
+}
+
+nav > a{
+    color: white;
+    font-weight: bold;
+    text-decoration: none;
+    margin: auto 20px auto auto;
+}
+main{
+    background-color: white;
+    width: 1000px;
+    margin: auto;
+    text-align: center;
+}
+
+#titulo-principal-2{
+    font-family: android, Arial, Helvetica, sans-serif;
+    font-size: 2em;
+    text-align: left;
+    color: #1A5C38;
+}
+
+.subtitulo{
+    text-align: left;
+    font-family: android, Arial, Helvetica, sans-serif;
+    color: #1A5C38;
+    background-image: linear-gradient(-90deg, rgba(62, 221, 134, 0), rgba(46, 160, 95, 0.060), rgba(26, 92, 56, 0.100));
+}
+
+div{
+    background-color: #1A5C38;
+}
+
+#extra{
+    background-color: rgba(56, 204, 123, 0.5);
+    margin: 20px;
+    border-radius: 10px;
+}
+
+#extra > h2{
+    text-align: left;
+    background-color: #2B975A;
+    padding: 5px;
+    color: white;
+    border-radius: 10px 10px 0px 0px;
+}
+
+#extra > ul{
+    text-align: left;
+    text-decoration: underline;
+}
+
+footer{
+    background-color: #1A5C38;
+    text-align: center;
+    color: white;
+}
+
+strong{
+    color: #1A5C38;
+}
+
+a{
+    color: #1A5C38;
+    text-decoration: none;
+    font-weight: bold;
+}
+
+

@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <style>
+        div{
+            background-color: rgb(139, 218, 139);
+            text-align: center;
+            height: 200px;
+            width: 200px;
+            border: 1px solid black;
+        }
+
+        div:hover{ /*quando passar o mouse por cima o fundo vai ficar amarelo*/
+            background-color: rgb(190, 190, 54);
+        }
+
+        div > p{ /*vai esconder o parágrafo filho da div*/
+            display: none;
+        }
+
+        div:hover > p{/*quando passar o mouse sobre a div, o parágrafo escondido dentro dela vai aprecer*/
+            display: block;
+            background-color: rgb(187, 101, 101);
+        }
+    </style>
+    <title>Pseudo-Classes</title>
+</head>
+<body>
+    <div id="d1">
+        01
+        <p>texto escondido01</p>
+    </div>
+    <div id="d2">
+        02
+        <p>Texto escondido02</p>
+    </div>
+    <div id="d3">
+        03
+        <p>texto escondido03</p>
+    </div>
+</body>
+</html>

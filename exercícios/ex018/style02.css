@@ -1,0 +1,28 @@
+@charset "utf-8";
+
+/*download de fontes*/
+@font-face {
+    font-family: 'Nasa';
+    src: url('fontes/nasalization-rg.otf') format('opentype');
+    font-weight: normal;
+    font-style: normal;
+}
+
+body{
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+h1{
+    font-family: 'Nasa', Times, serif;
+    font-size: 3em;
+    font-weight: normal;
+
+}
+
+h2{
+    font-family: 'Nasa', Times, serif;
+    font-size: 1.5em;
+    font-weight: normal;
+
+
+}

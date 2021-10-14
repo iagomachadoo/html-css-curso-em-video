@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>hover</title>
+    <style>
+        body{
+            background-color: rgba(255, 255, 0, 0.37);
+            font-family: Arial, Helvetica, sans-serif;
+        }
+
+        div{
+            background-color: rgba(238, 130, 238, 0.459);
+            width: 300px;
+            height: 150px;
+            border: 1px solid black;
+            text-align: center;
+        }
+
+        p{
+            text-decoration: underline;
+        }
+
+        div:hover{
+            background-color: rgba(0, 0, 255, 0.445);
+        }
+
+        div > p{
+            display: none;
+        }
+
+        div:hover > p{
+            display: block;
+        }
+    </style>
+</head>
+<body>
+    <h1>Exemplo hover</h1>
+    <div>
+        01
+        <p>texto</p>
+    </div>
+    <div>
+        02
+        <p>texto</p>
+    </div>
+    <div>
+        03
+        <p>texto</p>
+    </div>
+</body>
+</html>

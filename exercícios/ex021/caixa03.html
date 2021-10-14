@@ -1,0 +1,116 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Grounping Tags</title>
+    <style>
+        body{
+            font-family: Arial, Helvetica, sans-serif;
+            background-color: dimgray;
+            margin: 0px;
+        }
+
+        header{
+            background-color: white;
+            padding: 10px;
+            margin: 10px;
+            border-radius: 10px;
+            box-shadow: 2px 2px 1px rgba(0, 0, 0, 0.473);
+        }
+
+        nav{
+            background-color: rgb(126, 126, 126);
+            padding: 2px;
+            box-shadow: 1px 1px 1px rgba(0, 0, 0, 0.5);
+        }
+
+        nav > a{
+            color: white;
+            text-decoration: none;
+            font-weight: bold;
+            margin-right: 30px;
+        }
+
+        nav > a:hover{
+            color: red;
+            text-decoration: underline;
+        }
+
+
+        main{
+            background-color: white;
+            padding: 10px;
+            margin: 10px;
+            border-radius: 10px;
+            box-shadow: 2px 2px 1px rgba(0, 0, 0, 0.473);
+        }
+
+        article{
+            background-color: lightgray;
+            padding: 5px;
+        }
+
+        article > aside{
+            background-color: rgb(172, 172, 172);
+        }
+
+        footer{
+            background-color: black;
+            color: white;
+            text-align: center;
+            padding: 5px;
+            margin: 0px;
+        }
+
+        footer > p{
+            margin: 0px;
+        }
+
+        div#bola{
+            width: 100px;
+            height: 100px;
+            background-color: white;
+            margin: 10px;
+            border-radius: 50%;
+        }
+    </style>
+</head>
+<body>
+    <header>
+        <h1>Meu site</h1>
+        <nav>
+            <a href="#">Link</a>
+            <a href="#">Link</a>
+            <a href="#">Link</a>
+            <a href="#">Link</a>
+            <a href="#">Link</a>
+        </nav>
+    </header>
+    <main>
+        <section id="assuntos">
+            <h2>Tecnologia</h2>
+            <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Sit, magnam recusandae iure quo unde nulla laudantium aspernatur possimus cum distinctio nostrum nisi quam atque mollitia neque minus cupiditate sunt odit?</p>
+        </section>
+        <section id="noticias">
+            <article>
+                <h2>Notícias sobre uma coisa</h2>
+                <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Quidem distinctio veniam deleniti quisquam iure officiis, repellat cupiditate tempore, autem rerum sit maxime culpa optio hic debitis id est velit blanditiis?</p>
+                <aside>
+                    <p>Texto escrico por Fulano da Silva.</p>
+                </aside>
+            </article>
+            <article>
+                
+            </article>
+        </section>
+    </main>
+    <footer>
+        <p>Desenvolvido por Iago Machado.</p>
+    </footer>
+    <div id="bola">
+
+    </div>
+</body>
+</html>
